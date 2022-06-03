@@ -1,0 +1,82 @@
+body{
+	min-width: 320px ;
+	font-size: 16px;
+	font-family: "Playfair Display", serif;
+	color: black;
+	margin-left: auto;
+}
+div, img{
+	max-width: 150%;
+	height: 100%;
+	width:60%;
+	margin-left: 50px;
+}
+div {
+	margin: 110px;
+	padding: 10px;
+	width:80%;
+}
+p{
+	font-size: 16px;
+}
+
+body {
+	background: linear-gradient(90deg, #8e9eab,#eef2f3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	transform: translate3d(0, 0, 0);
+}
+
+.social {display: inline-block;
+		float: inherit, right;
+		}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	color: #000;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+	float: initial, left;
+}
+.social a:hover {color: #fff;}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.vk a:hover {background: #4a76a8;}
+.instagram a:hover {background: #3f729b;}
+.youtube a:hover {background: #c4302b;}
+
+.scial vk {
+	float: right;
+}
+@keyframes blockanimate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+
